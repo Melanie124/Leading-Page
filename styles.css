@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline;
+}
+
+.principal {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.027));
+}
+
+@media screen and (max-width: 800px) {
+    .principal {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .principal {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+}
+
+.logo {
+    background-image: url("https://logodownload.org/wp-content/uploads/2020/11/disney-plus-logo-1.png");
+    background-size: 200px;
+    height: 109px;
+    width: 200px;
+    margin: 72px 40px 0 120px;
+}
+
+.titulo {
+    padding: 50px;
+    margin: 20px 40px 0 80px;
+}
+
+.subtitulo {
+    color: azure;
+    padding: 30px;
+    margin: 20px 40px 0 100px;
+}
+
+.btn {
+    width: 400px;
+    margin: 10px 40px 0 130px;
+}
+
+.disney {
+    background-image: url("https://anthoncode.com/wp-content/uploads/2020/03/Disney-logo-white.png");
+    background-size: 100px;
+    height: 30px;
+    width: 100px;
+}
+
+.pixar {
+    background-image: url("https://1000logos.net/wp-content/uploads/2017/08/Font-Pixar-Logo.jpg");
+    background-size: 100px;
+    height: 30px;
+    width: 100px;
+}
+
+.marvel {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png");
+    background-size: 90px;
+    height: 35px;
+    width: 90px;
+}
+
+.star_wars {
+    background-image: url("https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-emblema.jpg");
+    background-size: 90px;
+    height: 46px;
+    width: 90px;
+}
+
+.national {
+    background-image: url("https://www.diariodenavarra.es/uploads/2017/05/27/60b0c021c20f5.jpeg");
+    background-size: 120px;
+    height: 50px;
+    width: 120px;
+}
+
+.mas {
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/17/55/plus-152614_960_720.png");
+    background-size: 32px;
+    height: 30px;
+}
+
+.colaboraciones ul {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.colaboraciones {
+    padding: 20px;
+    margin: 20px 40px 0 100px;
+}
